@@ -1,0 +1,62 @@
+<div>
+    <h2 class="text-center text-light mt-5 pt-4">hello brouda</h2>
+    <div class="row text-center m-5">
+
+        <div class="col-3">
+            <input class="form-control m-auto" type="text" placeholder="name" [(ngModel)]="hero.name" />
+        </div>
+        <div class="col-3">
+            <input class="form-control m-auto" type="number" placeholder="power" [(ngModel)]="hero.age" />
+        </div>
+        <div class="col-3">
+            <!-- <input class="form-control m-auto" type="file" placeholder="image" (change)="imageSelected($event)"/> -->
+            <button class="form-control m-auto" (click)="lgModal.show()" >Select image</button>
+
+        </div>
+
+        <div class="col-3">
+            <button (click)="addhero() " class="btn form-control create">create</button>
+        </div>
+    </div>
+</div>
+
+<!-- modal -->
+<div bsModal #lgModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="dialog-sizes-name1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-dark text-light">
+                <h4 id="dialog-sizes-name1" class="modal-title pull-left">choose image</h4>
+                <input type="file" (change)="fileChangeEvent($event)">
+
+                <button type="button" class="btn-close close pull-right " (click)="lgModal.hide()" aria-label="Close">
+                    <span aria-hidden="true" class="visually-hidden">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body "  >
+                <div class="row d-flex">
+                    <div class="col-md-5 mb-2">
+                        <image-cropper 
+                            [imageChangedEvent]="imageChangedEvent"
+                            [maintainAspectRatio]="true"
+                            [aspectRatio]="4 / 3" format="png" 
+                            (imageCropped)="imageCropped($event)"
+                            (imageLoaded)="imageLoaded($event)" 
+                            (cropperReady)="cropperReady()"
+                            (loadImageFailed)="loadImageFailed()">
+                        </image-cropper>
+
+                    </div>
+
+                    <div class="col-md-6 mb-2 d-flex justify-content-center">
+                            <img [src]="croppedImage" class="img-fluid">
+                    </div>
+                    <div class="modal-footer bg-dark"  *ngIf="imageChangedEvent">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal"  (click)="lgModal.hide()">Discrod</button>
+                        <button type="button" (click)="saveImage()" class="btn btn-primary">Save changes</button>
+                      </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

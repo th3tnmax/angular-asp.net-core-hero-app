@@ -1,0 +1,43 @@
+<div class="row m-5 ">
+
+    <div class="col-3" *ngFor="let item of students" 
+    >
+
+        <div class="card p-2 my-4" [ngClass]="{'bg-1': item.age <= 20 , 'bg-2': item.age>20 ,'bg-3': item.age>40}">
+
+            <img class="card-img-top  bg-costum" [src]=" 'data:image/png;base64,' + item.imgUrl" style="max-height: 200px; min-height: 200px;">
+            <div class="card-body">
+                <h3 class="">{{item.name}}</h3>
+                <p class="text-danger fs-3 fw-semibold">{{item.age}}</p>
+                <a (click)="delete(item.id)" class="btn btn-danger more mb-2">delete</a>
+                <a type="button" class="btn btn-primary more mb-2" data-bs-toggle="modal" (click)="selectStudent(item)" data-bs-target="#studentModal">
+                    See More
+                  </a>
+                  
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Button trigger modal -->
+<div class="modal " id="studentModal" tabindex="-1" aria-labelledby="studentModalLabel" aria-hidden="true">
+
+  <!-- Modal -->
+  
+    <div class="modal-dialog ">
+      <div class="modal-content bg-dark">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5 text-light" id="studentModalLabel">{{ selectedStudent?.name }}</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        <div class="modal-body ">
+            <img class=" mb-3 w-50 more mx-auto" [src]="selectedStudent?.imgUrl" >
+
+            <p class="text-light more"><strong>power : </strong> {{  selectedStudent?.age }}</p>
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>

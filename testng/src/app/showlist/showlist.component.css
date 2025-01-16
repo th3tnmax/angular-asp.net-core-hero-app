@@ -1,0 +1,22 @@
+.bg-1{
+    background-color: rgb(141, 98, 58);
+    
+}
+.bg-2{
+    background-color: rgb(39, 123, 62);
+    
+}
+.bg-3{
+    background-color: rgb(170, 69, 103);
+    
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bg-costum{
+    background-color: rgb(148, 148, 148);
+}
+

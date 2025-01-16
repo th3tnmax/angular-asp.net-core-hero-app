@@ -1,0 +1,70 @@
+
+<!-- 
+<h1>{{ name }}</h1>
+<h2>{{ age }}</h2>
+<h3>{{ fku }}</h3>
+<img [src]="imgUrl" alt="" />
+<button (click)="change()">click on me</button>
+<br>
+<input type="text" [(ngModel)]="text">
+
+<p>{{ text }}</p> -->
+<!-- <div>
+    <h1>{{ user.name }}</h1>
+    <p>{{ user.age}}</p>
+    <p>{{ user.fku}}</p>
+    
+</div>
+<div>
+    <input type="text" [(ngModel)]="text">
+    <button  style="border-radius: 8px; padding: 5px; background-color: aquamarine;" (click)=" changename()">change name</button>
+</div> -->
+
+<!-- <p > fku is trtue</p>
+<img *ngIf="user.fku == true" [src]="user.imgUrl" alt="">
+<button  style="border-radius: 8px; padding: 5px; background-color: aquamarine;" (click)=" changename()">{{text}} image</button> -->
+
+<!-- <div  style="display: flex ;  ">
+<div   *ngFor="let item of students" > 
+    <div *ngIf="item.age >= 20" style="background-color:azure;cursor: pointer; height: 180px;
+        width: 120px; border-radius: 8px; border-style: solid;
+        border-width: 1px; text-align: center; margin: 2vh 1vh;"
+    >
+        <h4>{{ item.name }}</h4>
+    <h5>{{ item.age }}</h5>
+    <img [src]="item.imgUrl" alt="" >
+</div>
+    
+</div>
+</div> -->
+
+<!-- <input type="text"[(ngModel)]="id">
+
+    <div [ngSwitch]="id" >
+        <div *ngSwitchCase="1">{{students[0].name}}</div>
+        <div *ngSwitchCase="2">{{students[1].name}}</div>
+        <div *ngSwitchCase="3">{{students[2].name}}</div>
+        
+    </div> -->
+
+<!-- <div *ngFor="let item of students" [ngClass]="{'bg-danger': item.age < 20 
+    , 'bg-success': item.age>20}">
+    <ng-container style="width: 120px;">
+    <h4>{{ item.name }}</h4>
+    <h5>{{ item.age }}</h5>
+    <img [src]="item.imgUrl" alt="" >
+</ng-container>
+</div>    
+                   -->
+        <app-header></app-header>
+<div class="container">
+    <div>
+
+        <!-- <app-addhero></app-addhero>
+
+        <app-showlist></app-showlist> -->
+        <router-outlet></router-outlet>
+
+    </div>
+
+</div>

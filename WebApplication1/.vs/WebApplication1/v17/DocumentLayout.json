@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yowasup\\Desktop\\expenses-angular\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{327E5FBB-ACBB-493C-AADB-A65B7CF92E16}|WebApplication1\\WebApplication1.csproj|c:\\users\\yowasup\\desktop\\expenses-angular\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{327E5FBB-ACBB-493C-AADB-A65B7CF92E16}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{327E5FBB-ACBB-493C-AADB-A65B7CF92E16}|WebApplication1\\WebApplication1.csproj|c:\\users\\yowasup\\desktop\\expenses-angular\\webapplication1\\webapplication1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{327E5FBB-ACBB-493C-AADB-A65B7CF92E16}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{327E5FBB-ACBB-493C-AADB-A65B7CF92E16}|WebApplication1\\WebApplication1.csproj|c:\\users\\yowasup\\desktop\\expenses-angular\\webapplication1\\webapplication1\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{327E5FBB-ACBB-493C-AADB-A65B7CF92E16}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{327E5FBB-ACBB-493C-AADB-A65B7CF92E16}|WebApplication1\\WebApplication1.csproj|c:\\users\\yowasup\\desktop\\expenses-angular\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{327E5FBB-ACBB-493C-AADB-A65B7CF92E16}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{327E5FBB-ACBB-493C-AADB-A65B7CF92E16}|WebApplication1\\WebApplication1.csproj|c:\\users\\yowasup\\desktop\\expenses-angular\\webapplication1\\webapplication1\\models\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{327E5FBB-ACBB-493C-AADB-A65B7CF92E16}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\studentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{327E5FBB-ACBB-493C-AADB-A65B7CF92E16}|WebApplication1\\WebApplication1.csproj|c:\\users\\yowasup\\desktop\\expenses-angular\\webapplication1\\webapplication1\\controllers\\paymetdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{327E5FBB-ACBB-493C-AADB-A65B7CF92E16}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\paymetdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\yowasup\\Desktop\\expenses-angular\\WebApplication1\\WebApplication1\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\yowasup\\Desktop\\expenses-angular\\WebApplication1\\WebApplication1\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\StudentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T12:46:38.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentContext.cs",
+              "DocumentMoniker": "C:\\Users\\yowasup\\Desktop\\expenses-angular\\WebApplication1\\WebApplication1\\Models\\StudentContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\StudentContext.cs",
+              "ToolTip": "C:\\Users\\yowasup\\Desktop\\expenses-angular\\WebApplication1\\WebApplication1\\Models\\StudentContext.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\StudentContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T12:14:26.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\yowasup\\Desktop\\expenses-angular\\WebApplication1\\WebApplication1\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\yowasup\\Desktop\\expenses-angular\\WebApplication1\\WebApplication1\\Models\\Student.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T12:13:17.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymetDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\yowasup\\Desktop\\expenses-angular\\WebApplication1\\WebApplication1\\Controllers\\PaymetDetailsController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\PaymetDetailsController.cs",
+              "ToolTip": "C:\\Users\\yowasup\\Desktop\\expenses-angular\\WebApplication1\\WebApplication1\\Controllers\\PaymetDetailsController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\PaymetDetailsController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T08:18:38.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\yowasup\\Desktop\\expenses-angular\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\Users\\yowasup\\Desktop\\expenses-angular\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-07T22:01:15.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yowasup\\Desktop\\expenses-angular\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\yowasup\\Desktop\\expenses-angular\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAowB0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T21:57:19.896Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

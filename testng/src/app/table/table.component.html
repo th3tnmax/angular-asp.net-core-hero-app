@@ -1,0 +1,26 @@
+<div>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let entry of entries">
+          <td>{{ entry.name }}</td>
+          <td>{{ entry.age }}</td>
+          <td>{{ entry.email }}</td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <div class="new-entry-form">
+      <input [(ngModel)]="newEntry.name" placeholder="Name">
+      <input [(ngModel)]="newEntry.age" placeholder="Age" type="number">
+      <input [(ngModel)]="newEntry.email" placeholder="Email" type="email">
+      <button (click)="addEntry()">Save</button>
+    </div>
+  </div>
+  
